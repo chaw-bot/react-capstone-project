@@ -1,0 +1,74 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    'Roboto',
+    'Oxygen',
+    'Ubuntu',
+    'Cantarell',
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+
+.nav1 {
+  background-color: rgb(100, 190, 190);
+}
+
+.nav2 {
+  background-color: aquamarine;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.dataUL {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.dataUL a {
+  padding: 20px;
+}
+
+.dataUL a:nth-child(n) {
+  background-color: cadetblue;
+}
+
+.dataUL a:nth-child(4n) {
+  background-color: rgb(105, 186, 189);
+}
+
+.dataUL a:nth-child(4n - 3) {
+  background-color: rgb(105, 186, 189);
+}
+
+.dataUL a:nth-child(8n - 7) {
+  background-color: rgb(105, 186, 189);
+}
+
+.goBack {
+  width: 25px;
+  height: 25px;
+}
