@@ -49,26 +49,26 @@ nav div {
 }
 
 .dataUL a {
+  background-color: cadetblue;
   padding: 20px;
 }
 
-.dataUL a:nth-child(n) {
-  background-color: cadetblue;
-}
-
-.dataUL a:nth-child(4n) {
-  background-color: rgb(105, 186, 189);
-}
-
-.dataUL a:nth-child(4n - 3) {
-  background-color: rgb(105, 186, 189);
-}
-
-.dataUL a:nth-child(8n - 7) {
+.dataUL a:nth-child(4n),
+.dataUL a:nth-child(4n + 1) {
   background-color: rgb(105, 186, 189);
 }
 
 .goBack {
   width: 25px;
   height: 25px;
+}
+
+.countryDetails {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flag {
+  width: 60px;
+  height: 40px;
 }
