@@ -49,11 +49,8 @@ nav div {
 }
 
 .dataUL a {
-  padding: 20px;
-}
-
-.dataUL a {
   background-color: cadetblue;
+  padding: 20px;
 }
 
 .dataUL a:nth-child(4n),
