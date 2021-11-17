@@ -2,7 +2,6 @@ import React from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import { TiArrowBackOutline } from 'react-icons/ti';
 import logo from '../images/logo.png';
-// import data from './data';
 
 const NavBar = () => {
   const detailsNav = <TiArrowBackOutline className="goBack" />;
