@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render components render NavBar 1`] = `
+<nav>
+  <div
+    className="nav1"
+  >
+    <a
+      aria-current="page"
+      className="active"
+      exact="true"
+      href="/"
+      onClick={[Function]}
+    >
+      
+    </a>
+    <h1
+      className="header1"
+    >
+      CoviData
+    </h1>
+  </div>
+  <div
+    className="nav2"
+  >
+    <img
+      alt="logo"
+      className="logo"
+      src="logo.png"
+    />
+    <h1
+      className="header2"
+    >
+      Corona Afrometer
+    </h1>
+  </div>
+</nav>
+`;
+
+exports[`Render components render NavBar 2`] = `
+<ul
+  className="dataUL"
+/>
+`;
