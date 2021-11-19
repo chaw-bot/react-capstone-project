@@ -1,7 +1,6 @@
 import React from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import { TiArrowBackOutline } from 'react-icons/ti';
-import { BsMic } from 'react-icons/bs';
 import { AiOutlineSetting } from 'react-icons/ai';
 import logo from '../images/logo.png';
 
@@ -19,7 +18,6 @@ const NavBar = () => {
         </NavLink>
         <h1 className="header1">CoviData</h1>
         <div className="navIcons">
-          <BsMic />
           <AiOutlineSetting />
         </div>
       </div>
