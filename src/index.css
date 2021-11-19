@@ -195,11 +195,15 @@ nav {
   }
 
   .countryName {
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .population {
-    font-size: 15px;
+    font-size: 13px;
+  }
+
+  .continent {
+    font-size: 25px;
   }
 
   .number {
