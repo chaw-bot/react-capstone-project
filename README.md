@@ -16,7 +16,10 @@ This project is a mobile web applicaation used to check a list of COVID-19 metri
 - Usage
 - Run npm install on a Terminal to install the modules
 - Run npm start on a Terminal to start the server
+
+## Links
 - Click [here](https://covidataworldwide.netlify.app/) to view it in the browser.
+- [Loom video](https://www.loom.com/share/79bd6f0e21be43059a2b2b45ab1d1455)
   
 ## Authors
 
