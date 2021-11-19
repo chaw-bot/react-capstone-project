@@ -26,7 +26,6 @@ const FetchStats = async () => {
 
     return stats.push(covidData);
   });
-
   return stats;
 };
 
