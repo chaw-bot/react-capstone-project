@@ -1,5 +1,5 @@
 # CoviData Metrics Webapp
-This project is a mobile web applicaation used to check a list of COVID-19 metrics.
+This project is a mobile web application used to check a list of COVID-19 metrics.
 
 ![HomePage](./src/images/Screenshot1.png)  ![Details Page](./src/images/Screenshot2.png)
 
@@ -18,7 +18,7 @@ This project is a mobile web applicaation used to check a list of COVID-19 metri
 - Run npm start on a Terminal to start the server
 - Click [here](https://covidataworldwide.netlify.app/) to view it in the browser.
   
-## Authors
+## Author
 
 👤 **Chawanzi Ng'uni**
 
@@ -39,4 +39,4 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 Microverse
 React and React Router documentation
-Hats off too [Creative Commons license](https://creativecommons.org/licenses/by-nc/4.0/) for the design inspiration.
+Hats off to [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) for the design inspiration.
