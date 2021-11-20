@@ -93,10 +93,6 @@ nav {
 .dataUL {
   display: grid;
   grid-template-columns: 50% 50%;
-  background: url(./images/Africa.png) no-repeat;
-  background-position: center;
-  background-size: contain;
-  background-attachment: fixed;
 }
 
 .dataUL a,
