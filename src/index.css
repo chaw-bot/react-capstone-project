@@ -7,6 +7,13 @@
   margin: 0;
 }
 
+html {
+  background: url(./images/Africa.png) no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
 body {
   margin: 0;
   font-family:
@@ -86,10 +93,6 @@ nav {
 .dataUL {
   display: grid;
   grid-template-columns: 50% 50%;
-  background: url(./images/Africa.png) no-repeat;
-  background-position: center;
-  background-size: contain;
-  background-attachment: fixed;
 }
 
 .dataUL a,
@@ -120,10 +123,31 @@ nav {
 
 .dataUL a:hover,
 .dataUL a:nth-child(4n):hover,
-.dataUL a:nth-child(4n + 1):hover {
+.dataUL a:nth-child(4n + 1):hover,
+.form {
   padding: 25px;
   background-color: rgba(153, 0, 0, 0.7);
   color: white;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+.input-search {
+  border: none;
+  background-color: transparent;
+  height: 25px;
+}
+
+::placeholder {
+  color: white;
+  padding-bottom: 5px;
 }
 
 .goBack {
