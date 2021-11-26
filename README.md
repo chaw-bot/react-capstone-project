@@ -1,7 +1,11 @@
 # CoviData Metrics Webapp
-This project is a mobile web application used to check a list of COVID-19 metrics.
+This project is a mobile web application used to check a list of COVID-19 metrics worldwide.
 
-![HomePage](./src/images/Screenshot1.png)          ![Details Page](./src/images/Screenshot2.png)
+![HomePage](./src/images/Screenshot1.png)
+
+![Continents Page](./src/images/Screenshot2.png)
+
+![Details Page](./src/images/Screenshot3.png)
 
 ## Built With
 - JavaScript/React
