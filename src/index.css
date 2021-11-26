@@ -7,13 +7,6 @@
   margin: 0;
 }
 
-html {
-  background: url(./images/Africa.png) no-repeat;
-  background-position: center;
-  background-size: contain;
-  background-attachment: fixed;
-}
-
 body {
   margin: 0;
   font-family:
@@ -30,6 +23,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  background-color: rgba(254, 204, 204, 0.9);
 }
 
 nav div {
@@ -58,13 +55,25 @@ nav {
   letter-spacing: 2px;
 }
 
-.continent,
-.footer {
+.continent {
   background-color: rgba(255, 101, 101, 0.9);
   text-align: center;
   font-family: 'Lato', sans-serif;
   color: white;
   letter-spacing: 1px;
+  padding: 10px 0;
+}
+
+.Details {
+  padding-top: 250px;
+}
+
+.continent h1 {
+  padding-bottom: 10px;
+}
+
+.continent h2 {
+  padding-top: 10px;
 }
 
 .nav2 {
@@ -90,6 +99,10 @@ nav {
   color: rgb(56, 48, 48);
 }
 
+.continentName {
+  color: rgb(56, 48, 48);
+}
+
 .dataUL {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -105,10 +118,24 @@ nav {
   padding: 20px;
 }
 
-.homePage a {
+.ContinentPage {
+  background: url(./images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.ContinentPage a,
+.buttons button {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: rgb(61, 61, 61);
   font-size: 20px;
+}
+
+.dataContainer {
+  display: grid;
+  grid-auto-flow: column;
 }
 
 .dataContainer div ul li {
@@ -126,7 +153,7 @@ nav {
 .dataUL a:nth-child(4n + 1):hover,
 .form {
   padding: 25px;
-  background-color: rgba(153, 0, 0, 0.7);
+  background-color: rgba(153, 0, 0, 0.9);
   color: white;
 }
 
@@ -183,7 +210,7 @@ nav {
   border-radius: 5px;
 }
 
-.homePage {
+.ContinentPage {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: white;
 }
@@ -192,13 +219,59 @@ nav {
   text-align: center;
 }
 
+.buttons {
+  background-color: rgba(255, 101, 101, 0.9);
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  position: relative;
+}
+
+.buttons button {
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 10px;
+}
+
+.selected {
+  background-color: rgba(153, 0, 0, 0.7);
+}
+
+.unselected {
+  background-color: rgba(254, 204, 204, 0.9);
+}
+
+.map {
+  width: 100%;
+  height: 300px;
+}
+
+.ContinentDetails {
+  display: flex;
+  justify-content: space-between;
+}
+
+.titles {
+  align-self: center;
+}
+
 @media screen and (max-width: 480px) {
   .dataUL a {
     padding: 10px;
   }
 
+  .countryNumbers {
+    display: none;
+  }
+
+  .ContinentDetails {
+    flex-direction: column;
+  }
+
   .nav2 {
-    gap: 200px;
+    gap: 100px;
   }
 
   .logo {
@@ -210,7 +283,7 @@ nav {
     font-size: 15px;
   }
 
-  .homePage a {
+  .ContinentPage a {
     font-size: 15px;
   }
 
@@ -226,8 +299,13 @@ nav {
     font-size: 13px;
   }
 
+  .continent h3 {
+    font-size: 15px;
+  }
+
   .continent {
     font-size: 25px;
+    padding: 10px 0;
   }
 
   .number {
@@ -258,5 +336,41 @@ nav {
   .header1,
   .continent h1 {
     font-size: 20px;
+    padding-bottom: 5px;
+  }
+
+  .map-div {
+    text-align: center;
+  }
+
+  .continentName {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 5px;
+  }
+
+  .Africa,
+  .South-America {
+    width: 70%;
+    height: 150px;
+  }
+
+  .Asia,
+  .Europe,
+  .North-America {
+    height: 100px;
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  .Australia-Oceania {
+    width: 100%;
+    height: 150px;
+    padding-top: 20px;
+  }
+
+  .buttons {
+    position: absolute;
+    bottom: 0;
   }
 }
