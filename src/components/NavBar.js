@@ -6,9 +6,9 @@ import logo from '../images/logo.png';
 
 const NavBar = () => {
   const detailsNav = <TiArrowBackOutline className="goBack" />;
-  const header = 'Corona Afrometer';
+  const header = 'Corona Worldometer';
   const location = useLocation();
-  const goBack = location.pathname.includes('country') ? detailsNav : '';
+  const goBack = location.pathname.includes('country') || location.pathname.includes('continent') ? detailsNav : '';
 
   return (
     <nav>

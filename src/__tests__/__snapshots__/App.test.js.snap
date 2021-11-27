@@ -49,21 +49,167 @@ Object {
           <h1
             class="header2"
           >
-            Corona Afrometer
+            Corona Worldometer
           </h1>
         </div>
       </nav>
       <div
-        class="homePage"
+        class="ContinentPage"
+        id="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
       >
         <h1
           class="continent"
         >
-          Africa
+          World Wide
         </h1>
         <ul
           class="dataUL"
-        />
+        >
+          <a
+            href="/continent/Africa"
+          >
+            <li
+              class="ContinentDetails"
+            >
+              <div
+                class="details"
+              >
+                <h1
+                  class="continentName"
+                >
+                  Africa
+                </h1>
+                <div>
+                  <img
+                    alt="Continent map"
+                    class="map"
+                    src="Africa.png"
+                  />
+                </div>
+              </div>
+            </li>
+          </a>
+          <a
+            href="/continent/Asia"
+          >
+            <li
+              class="ContinentDetails"
+            >
+              <div
+                class="details"
+              >
+                <h1
+                  class="continentName"
+                >
+                  Asia
+                </h1>
+                <div>
+                  <img
+                    alt="Continent map"
+                    class="map"
+                    src="asia.png"
+                  />
+                </div>
+              </div>
+            </li>
+          </a>
+          <a
+            href="/continent/Australia-Oceania"
+          >
+            <li
+              class="ContinentDetails"
+            >
+              <div
+                class="details"
+              >
+                <h1
+                  class="continentName"
+                >
+                  Australia-Oceania
+                </h1>
+                <div>
+                  <img
+                    alt="Continent map"
+                    class="map"
+                    src="australia.png"
+                  />
+                </div>
+              </div>
+            </li>
+          </a>
+          <a
+            href="/continent/Europe"
+          >
+            <li
+              class="ContinentDetails"
+            >
+              <div
+                class="details"
+              >
+                <h1
+                  class="continentName"
+                >
+                  Europe
+                </h1>
+                <div>
+                  <img
+                    alt="Continent map"
+                    class="map"
+                    src="europe.png"
+                  />
+                </div>
+              </div>
+            </li>
+          </a>
+          <a
+            href="/continent/North America"
+          >
+            <li
+              class="ContinentDetails"
+            >
+              <div
+                class="details"
+              >
+                <h1
+                  class="continentName"
+                >
+                  North America
+                </h1>
+                <div>
+                  <img
+                    alt="Continent map"
+                    class="map"
+                    src="northamerica.png"
+                  />
+                </div>
+              </div>
+            </li>
+          </a>
+          <a
+            href="/continent/South America"
+          >
+            <li
+              class="ContinentDetails"
+            >
+              <div
+                class="details"
+              >
+                <h1
+                  class="continentName"
+                >
+                  South America
+                </h1>
+                <div>
+                  <img
+                    alt="Continent map"
+                    class="map"
+                    src="southamerica.png"
+                  />
+                </div>
+              </div>
+            </li>
+          </a>
+        </ul>
       </div>
     </div>
   </body>,
@@ -112,21 +258,167 @@ Object {
         <h1
           class="header2"
         >
-          Corona Afrometer
+          Corona Worldometer
         </h1>
       </div>
     </nav>
     <div
-      class="homePage"
+      class="ContinentPage"
+      id="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
     >
       <h1
         class="continent"
       >
-        Africa
+        World Wide
       </h1>
       <ul
         class="dataUL"
-      />
+      >
+        <a
+          href="/continent/Africa"
+        >
+          <li
+            class="ContinentDetails"
+          >
+            <div
+              class="details"
+            >
+              <h1
+                class="continentName"
+              >
+                Africa
+              </h1>
+              <div>
+                <img
+                  alt="Continent map"
+                  class="map"
+                  src="Africa.png"
+                />
+              </div>
+            </div>
+          </li>
+        </a>
+        <a
+          href="/continent/Asia"
+        >
+          <li
+            class="ContinentDetails"
+          >
+            <div
+              class="details"
+            >
+              <h1
+                class="continentName"
+              >
+                Asia
+              </h1>
+              <div>
+                <img
+                  alt="Continent map"
+                  class="map"
+                  src="asia.png"
+                />
+              </div>
+            </div>
+          </li>
+        </a>
+        <a
+          href="/continent/Australia-Oceania"
+        >
+          <li
+            class="ContinentDetails"
+          >
+            <div
+              class="details"
+            >
+              <h1
+                class="continentName"
+              >
+                Australia-Oceania
+              </h1>
+              <div>
+                <img
+                  alt="Continent map"
+                  class="map"
+                  src="australia.png"
+                />
+              </div>
+            </div>
+          </li>
+        </a>
+        <a
+          href="/continent/Europe"
+        >
+          <li
+            class="ContinentDetails"
+          >
+            <div
+              class="details"
+            >
+              <h1
+                class="continentName"
+              >
+                Europe
+              </h1>
+              <div>
+                <img
+                  alt="Continent map"
+                  class="map"
+                  src="europe.png"
+                />
+              </div>
+            </div>
+          </li>
+        </a>
+        <a
+          href="/continent/North America"
+        >
+          <li
+            class="ContinentDetails"
+          >
+            <div
+              class="details"
+            >
+              <h1
+                class="continentName"
+              >
+                North America
+              </h1>
+              <div>
+                <img
+                  alt="Continent map"
+                  class="map"
+                  src="northamerica.png"
+                />
+              </div>
+            </div>
+          </li>
+        </a>
+        <a
+          href="/continent/South America"
+        >
+          <li
+            class="ContinentDetails"
+          >
+            <div
+              class="details"
+            >
+              <h1
+                class="continentName"
+              >
+                South America
+              </h1>
+              <div>
+                <img
+                  alt="Continent map"
+                  class="map"
+                  src="southamerica.png"
+                />
+              </div>
+            </div>
+          </li>
+        </a>
+      </ul>
     </div>
   </div>,
   "debug": [Function],
