@@ -124,6 +124,8 @@ nav {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
 }
 
 .ContinentPage a,
@@ -208,11 +210,6 @@ nav {
 
 .flag2 {
   border-radius: 5px;
-}
-
-.ContinentPage {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: white;
 }
 
 .dataContainer div ul {
